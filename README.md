@@ -1,4 +1,4 @@
-** Privileged Executable File Auditing **
+**Privileged Executable File Auditing**
 -------------------------------------------------------------------------------
 
 0. Description
