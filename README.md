@@ -56,16 +56,29 @@ https://docs.python.org/3/library/argparse.html
 **2. Example Output**
 
 $ findpriv -p /usr/bin
+
 Scanned 2173 files, found 2173 executables
+
 setuid executables:
+
 /usr/bin/chfn
+
 /usr/bin/gpasswd
+
 /usr/bin/mount
+
 /usr/bin/passwd
+
 /usr/bin/pkexec
+
 /usr/bin/su
+
 /usr/bin/sudo
+
 capability-aware executables:
+
 /usr/bin/dumpcap  cap_net_admin, cap_net_raw
+
 /usr/bin/fping    cap_net_raw
+
 /usr/bin/ping     cap_net_raw
