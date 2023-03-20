@@ -9,7 +9,9 @@ system. Your program, called "findpriv", will scan all files on the system (or
 in the supplied directory), identify all executables, and report:
 
 1) The number of files scanned, and the number of executables found.
+
 2) The list of executables (name and full path) that have the setuid bit set.
+
 3) The list of executables (name and full path) with capabilities, along
    with the specific capabilities each of them has been granted with.
 
@@ -18,7 +20,9 @@ Your program should conform to the following specification:
 findpriv [-s] [-c] [-p path]
 
 -s  Search for setuid executables.
+
 -c  Search for executables with capabilities.
+
 -p  Search only in the directory specified by 'path'.
 
 If no command-line option is provided, findpriv should search the entire
@@ -47,10 +51,15 @@ each executable and parse its output.
 
 Some useful resources:
 https://man7.org/linux/man-pages/man1/ls.1p.html
+
 https://man7.org/linux/man-pages/man7/capabilities.7.html
+
 https://man7.org/linux/man-pages/man8/getcap.8.html
+
 https://en.wikipedia.org/wiki/Setuid
+
 https://docs.python.org/3/library/os.html
+
 https://docs.python.org/3/library/argparse.html
 
 **2. Example Output**
