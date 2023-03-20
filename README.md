@@ -1,7 +1,7 @@
 **Privileged Executable File Auditing**
 -------------------------------------------------------------------------------
 
-0. Description
+**Description**
 
 In this assignment you will develop an auditing tool that searches for
 privileged setuid executables and executables with capabilities on a Linux
@@ -29,7 +29,7 @@ executables with capabilities in the directory /usr/bin:
 
 findpriv -c -p /usr/bin
 
-1. Hints
+**1. Hints**
 
 To determine if a file is an executable, you can check its permissions. For
 debugging purposes, you can observe the output of "ls -l" and see if a file
@@ -53,7 +53,7 @@ https://en.wikipedia.org/wiki/Setuid
 https://docs.python.org/3/library/os.html
 https://docs.python.org/3/library/argparse.html
 
-2. Example Output
+**2. Example Output**
 
 $ findpriv -p /usr/bin
 Scanned 2173 files, found 2173 executables
